@@ -1,0 +1,89 @@
+body {
+  color: rgb(63, 60, 56);
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ヘッダー */
+.header-container {
+  height: 10vh;
+  background-color: rgba(54, 39, 39, 0.9);
+  color: aliceblue;
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.fa-leaf {
+  margin-left:0.4rem;
+  margin-right:0.4rem;
+}
+
+
+.header-right {
+  display: flex;
+  flex-flow: row;
+  margin-left: auto;
+  line-height: 10vh;
+}
+
+.header-right a {
+  display: block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: aliceblue;
+  font-size: 0.7rem;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right .fa-bars {
+  display: none;
+  font-size: 2rem;
+  line-height: 10vh;
+  margin-right: 1rem;
+}
+
+.header-right .fa-bars:hover {
+  opacity: 0.5;
+}
+
+/* トップイメージ */
+.background-img {
+  background-image: url(../img/background-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 25rem;
+}
+
+.background-img h1 {
+  line-height: 25rem;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.modal {
+  display: flex;
+}
